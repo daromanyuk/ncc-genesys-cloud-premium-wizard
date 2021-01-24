@@ -371,7 +371,7 @@ function runPageScript(){
 function sendEmailToPureCloud(subject, body) {
     let protocol = "http://";
     $.ajax({
-        url: `https//test.inprod.io/api/customers/genesys-send-email/`,
+        url: `https://test.inprod.io/api/customers/genesys-send-email/`,
         type: 'post',
         data: JSON.stringify({
             "base_path": client.instance.basePath,

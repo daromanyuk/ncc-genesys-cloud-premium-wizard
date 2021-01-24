@@ -124,7 +124,7 @@ export default {
 
     localStorage.setItem("genesysBasePath", client.instance.basePath);
     return $.ajax({
-      url: `https//test.inprod.io/api/customers/genesys-create/`,
+      url: `https://test.inprod.io/api/customers/genesys-create/`,
       type: 'post',
       data: JSON.stringify({
         "base_path": client.instance.basePath,
