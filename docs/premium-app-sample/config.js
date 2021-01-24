@@ -1,3 +1,3 @@
 export default {
-    basePath: 'https://mypurecloud.github.io/purecloud-premium-app/premium-app-sample/'
+    basePath: 'https://inprod.github.io/premium-app-example/premium-app-sample/'
 }

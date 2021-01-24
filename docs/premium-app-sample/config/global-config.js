@@ -18,7 +18,7 @@ let prodClientID = 'a1107c69-6f99-4b50-9682-c11ce24a35f6';
 
 // Determine URL for different environments
 // TODO bvedad remove this variable
-const root = isTestEnvironment ? 'http://localhost:8081' : 'https://mypurecloud.github.io/purecloud-premium-app';
+const root = isTestEnvironment ? 'http://localhost:8081' : 'https://inprod.github.io/premium-app-example';
 
 export default {
     clientID: isTestEnvironment ? testClientID : prodClientID,

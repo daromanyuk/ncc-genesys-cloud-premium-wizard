@@ -1,5 +1,5 @@
 {
-  "name": "purecloud-premium-app",
+  "name": "premium-app-example",
   "version": "1.0.0",
   "description": "PureCloud Premium Front-End App",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrinceMerluza/purecloud-premium-app.git"
+    "url": "git+https://github.com/PrinceMerluza/premium-app-example.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrinceMerluza/purecloud-premium-app/issues"
+    "url": "https://github.com/PrinceMerluza/premium-app-example/issues"
   },
-  "homepage": "https://github.com/PrinceMerluza/purecloud-premium-app#readme",
+  "homepage": "https://github.com/PrinceMerluza/premium-app-example#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"

@@ -33,10 +33,10 @@ This projects contains a sample premium app and an automated on-boarding flow fo
 
 ## Github Pages
 The Premium App sample is hosted in GH-Pages:
-https://mypurecloud.github.io/purecloud-premium-app/
+https://inprod.github.io/premium-app-example/
 
 The wizard or provisioning tool is located at:
-https://mypurecloud.github.io/purecloud-premium-app/wizard/
+https://inprod.github.io/premium-app-example/wizard/
 
 
 
@@ -88,36 +88,36 @@ https://developer.mypurecloud.com/api/tutorials/premium-app-example-wizard/
 2. Step-by-step procedure of informing the user what the wizard is going to create in the org.
 3. Provides a one-step uninstallation that will undo everything the wizard has created/configured.
 
-![Step 1](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/step-1.png "Step 1")
+![Step 1](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/step-1.png "Step 1")
 
-![Step 2](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/step-2.png "Step 2")
+![Step 2](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/step-2.png "Step 2")
 
-![Step 3](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/step-3.png "Step 3")
+![Step 3](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/step-3.png "Step 3")
 
-![Step 4](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/step-4.png "Step 4")
+![Step 4](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/step-4.png "Step 4")
 
-![Finish](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/finish.png "Finish")
+![Finish](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/finish.png "Finish")
 
 ### Installed Data Summary
 
 After the wizard installation, you can get the summary of the provisioned objects (id and name) in the Notes section of the original Intergration instance. 
 
-![Installed Data](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/installed-data.png "Installed Data")
+![Installed Data](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/installed-data.png "Installed Data")
 
 ## Uninstalling / Deprovisioning the Premium App
 
 Going to the page docs/wizard/uninstall.html will run the deprovisioning of the Premium App. This means deleting all the PureCloud objects (groups, roles, etc.) that were initially created by the tool. 
 
-![Uninstall](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/uninstall.png "Uninstall")
+![Uninstall](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/uninstall.png "Uninstall")
 
 ## Sample Premium App Features
 1.	The web page will use an implicit grant to authenticate with PureCloud. 
 
 2. Upon installing, an app instance of the Partner Enablement Tool will also be provisioned. This tool is an automated way to provision telephony to your Genesys Cloud developer org. 
 
-![Apps Menu](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/menu-item.PNG "Apps Menu")
+![Apps Menu](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/menu-item.PNG "Apps Menu")
 
-![Partner Enablement Tool](https://raw.githubusercontent.com/MyPureCloud/purecloud-premium-app/master/screenshots/partner-enablement-tool.PNG "Partner Enablement Tool")
+![Partner Enablement Tool](https://raw.githubusercontent.com/MyPureCloud/premium-app-example/master/screenshots/partner-enablement-tool.PNG "Partner Enablement Tool")
 
 
 

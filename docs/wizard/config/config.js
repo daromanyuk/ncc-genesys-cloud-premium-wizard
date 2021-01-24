@@ -2,11 +2,11 @@ export default {
     clientID: 'a25d93b0-7a4e-485a-bdf3-dcf27fb2b3b3',
 
     'wizardUriBase': 'https://inprod.github.io/premium-app-example/wizard/',
-    // 'wizardUriBase': 'https://mypurecloud.github.io/purecloud-premium-app/wizard/',
+    // 'wizardUriBase': 'https://inprod.github.io/premium-app-example/wizard/',
 
     // The actual URL of the landing page of your web app.
     'premiumAppURL': 'https://inprod.github.io/premium-app-example/premium-app-sample/index.html',
-    // 'premiumAppURL': 'https://mypurecloud.github.io/purecloud-premium-app/premium-app-sample/index.html',
+    // 'premiumAppURL': 'https://inprod.github.io/premium-app-example/premium-app-sample/index.html',
 
     // PureCloud assigned name for the premium app
     // This should match the integration type name of the Premium App
@@ -84,7 +84,7 @@ export default {
         'app-instance': [
             {
                 'name': 'Supervisor Widget',
-                'url': 'http://localhost:8080/premium-app-sample/supervisor.html?lang={{pcLangTag}}&environment={{pcEnvironment}}',
+                'url': 'https://inprod.github.io//premium-app-sample/supervisor.html?lang={{pcLangTag}}&environment={{pcEnvironment}}',
                 'type': 'standalone',
                 'groups': ['Supervisors']
             }
@@ -112,7 +112,7 @@ export default {
                     return new Promise((resolve, reject) => {
                         let protocol = 'http://';
                         return $.ajax({
-                            url: `${protocol}localhost:8000/api/customers/genesys-client-update/`,
+                            url: `https//test.inprod.io/api/customers/genesys-client-update/`,
                             type: 'post',
                             data: JSON.stringify({
                                 "client_id": installedData.id,
@@ -144,13 +144,13 @@ export default {
                 "description":"OAuth for Arkis Provider, generated automatically to provide login",
                 "authorizedGrantType":"CODE",
                 "registeredRedirectUri":[
-                    "http://localhost:8080/oauth-callback/purecloud",
-                    "http://localhost:8080/oauth-connect-callback/purecloud",
-                    "http://localhost:8080/premium-app-sample/index.html",
-                    "http://localhost:8080/wizard/index.html",
-                    "http://localhost:8080/wizard/supervisor.html",
-                    "http://localhost:8080/index.html",
-                    "http://localhost:8080/supervisor.html",
+                    "https://inprod.github.io//oauth-callback/purecloud",
+                    "https://inprod.github.io//oauth-connect-callback/purecloud",
+                    "https://inprod.github.io//premium-app-sample/index.html",
+                    "https://inprod.github.io//wizard/index.html",
+                    "https://inprod.github.io//wizard/supervisor.html",
+                    "https://inprod.github.io//index.html",
+                    "https://inprod.github.io//supervisor.html",
                     "http://localhost:8081/oauth-callback/purecloud",
                     "http://localhost:8081/oauth-connect-callback/purecloud",
                     "http://localhost:8081/premium-app-sample/index.html",
@@ -282,7 +282,7 @@ export default {
                     return new Promise((resolve, reject) => {
                         let protocol = 'http://';
                         return $.ajax({
-                            url: `${protocol}localhost:8000/api/customers/genesys-client-update/`,
+                            url: `https//test.inprod.io/api/customers/genesys-client-update/`,
                             type: 'post',
                             data: JSON.stringify({
                                 "client_id": installedData.id,
