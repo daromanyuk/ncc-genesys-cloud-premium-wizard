@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+html, body {
+    height: 100%;
+  }
+
+body {
+    color: #4C4C4C;
+    font-family: "Roboto","HelveticaNeue", "Helvetica", "Arial", sans-serif;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+}
+
+#background {
+    position: fixed; 
+    top:0; 
+    left:0; 
+    z-index: -10; 
+    background: #F6F6F6; 
+    width: 100%; 
+    height: 100%;
+}
+
+header {
+    margin: 0;
+    padding: 5px 0px 2px 10px;
+    background-color: #FFF;
+    border-bottom: 2px solid #DDDDDD
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer img {
+    height: 40px;
+    margin-left: 10px;
+    float: right;
+    margin: 0px 20px;
+}
+
+footer {
+    /* margin-top: 50px; */
+    padding-top: 10px;
+    border-top: 2px solid #DDDDDD;
+    background: #FFF;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+#loading {
+    color: #DDDDDD;
+}
+
+main {
+    height: auto;
+    margin: auto;
+    padding: 40px 15px 40px 15px;
+    margin-top: 20px;
+    width: 70%;
+    min-width: 800px;
+    text-align: center;
+    border: 1px solid #CBCBCB;
+    /* border-bottom: 5px solid #DDDDDD; */
+    /* border-radius: 1em 1em; */
+    background: #FFF;
+    overflow: hidden;
+
+    /* box-shadow: 7px 7px #DDDDDD; */
+}
+
+p {
+    margin: 12px;
+}
+
+.success {
+    color: #166b8b;
+}
+
+.fail {
+    color: #f54141e3;
+}
+
+.reminder-list {
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* Font awesmoe modifiers */
+.enlarge {
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.hidden {
+    display: none;
+}
+
+.sink-more {
+    margin-top:25px;
+}
+
+/* Buttons */
+button {
+    border-radius: 5px 5px;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    outline: 0;
+}
+
+.btn-info {
+    background-color:#64cdf5; 
+    border: 1px solid #64cdf5;
+    border-radius:25px; 
+    color: #FDFDFD; 
+    border-width: 2px
+}
+
+.btn-info:hover, .btn-info:focus {
+    background-color:white; 
+    border: 1px solid #64cdf5;
+    border-radius:25px; 
+    color: #64cdf5; 
+    border-width: 2px
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/* Modal */
+.adjust-text {
+   /* margin-top: -100px; */
+    color: #64cdf5;
+    font-size-adjust: unset;
+}
+
+
+/* Progress */
+.progress-bar {
+    color: #4C4C4C;
+    counter-reset: step;
+    width: 950px;
+    height: 60px;
+    margin: auto; 
+    /* margin-bottom: 50px; */
+}
+
+.progress-bar li {
+    list-style-type: none;
+    width: 25%;
+    float: left;
+    text-transform: uppercase;
+    text-emphasis: 1;
+    text-align: center;
+    position: relative;
+}
+
+.progress-bar li::before{
+    width: 30px;
+    height: 30px;
+    content: counter(step);
+    line-height: 30px;
+    counter-increment: step;
+    display: block;
+    background-color: #fff;
+    border: 2px solid #DDDDDD;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.progress-bar li:after {
+    width: 100%;
+    height: 4px;
+    content: '';
+    position: absolute;
+    background-color: #DDDDDD;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progress-bar li:first-child:after {
+    content: none;
+}
+
+.progress-bar li.current::before {
+    border: 5px solid;
+}
+
+.progress-bar li.active {
+    color: #4C4C4C;
+}
+
+.progress-bar li.active::before {
+    color: #64cdf5;
+    content: '✔';
+}
+
+.progress-bar li.active:before {
+    border-color: #64cdf5;
+}
+
+.progress-bar li.active + li:after {
+    background-color: #DDDDDD;
+}
+
+.title {
+    margin: 25px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #64cdf5;
+    font-family: "Roboto","Lato", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+}
+
+/* Message-box */
+.message {
+    width: 700px;
+    margin: auto;
+    border: 1px solid #DDDDDD;
+    border-bottom: 3px solid #DDD;
+}
+
+.message-title{
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    background-color: #64cdf5; 
+}
+
+.message-content {
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 32px;
+    text-align: left;
+}
+
+.overlay{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: #ffffffea;
+}
+
+
+.modal {
+    width: 400px;
+    position: fixed;
+    top: 20%; 
+    left: 50%;
+    margin-left: -200px;
+
+    border-radius: 40px;
+    text-align: center;
+    z-index: 11; 
+}
+
+.modal .logo {
+    max-width: 200px;
+}
+
+.modal .modal-message {
+    margin-top: 20px;
+    font-size: 20px;
+}
