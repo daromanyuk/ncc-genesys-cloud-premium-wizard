@@ -1,11 +1,11 @@
 export default {
     clientID: 'a25d93b0-7a4e-485a-bdf3-dcf27fb2b3b3',
 
-    'wizardUriBase': 'http://localhost:8080/wizard/',
+    'wizardUriBase': 'https://inprod.github.io/premium-app-example/wizard/',
     // 'wizardUriBase': 'https://mypurecloud.github.io/purecloud-premium-app/wizard/',
 
     // The actual URL of the landing page of your web app.
-    'premiumAppURL': 'http://localhost:8080/premium-app-sample/index.html',
+    'premiumAppURL': 'https://inprod.github.io/premium-app-example/premium-app-sample/index.html',
     // 'premiumAppURL': 'https://mypurecloud.github.io/purecloud-premium-app/premium-app-sample/index.html',
 
     // PureCloud assigned name for the premium app
@@ -172,9 +172,9 @@ export default {
                     "https://localhost:8081/wizard/supervisor.html",
                     "https://localhost:8081/index.html",
                     "https://localhost:8081/supervisor.html",
-                    "https://mypurecloud.github.io/purecloud-premium-app/premium-app-sample/index.html",
-                    "https://mypurecloud.github.io/purecloud-premium-app/wizard/index.html",
-                    "https://mypurecloud.github.io/purecloud-premium-app/wizard/supervisor.html"
+                    "https://inprod.github.io/premium-app-example/premium-app-sample/index.html",
+                    "https://inprod.github.io/premium-app-example/wizard/index.html",
+                    "https://inprod.github.io/premium-app-example/wizard/supervisor.html"
                 ],
                 "scope":[
                     "alerting",
