@@ -112,7 +112,7 @@ export default {
                     return new Promise((resolve, reject) => {
                         let protocol = 'http://';
                         return $.ajax({
-                            url: `https://test.inprod.io/api/customers/genesys-client-update/`,
+                            url: `https://app.test.inprod.io/api/customers/genesys-client-update/`,
                             type: 'post',
                             data: JSON.stringify({
                                 "client_id": installedData.id,
@@ -282,7 +282,7 @@ export default {
                     return new Promise((resolve, reject) => {
                         let protocol = 'http://';
                         return $.ajax({
-                            url: `https://test.inprod.io/api/customers/genesys-client-update/`,
+                            url: `https://app.test.inprod.io/api/customers/genesys-client-update/`,
                             type: 'post',
                             data: JSON.stringify({
                                 "client_id": installedData.id,
