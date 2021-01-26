@@ -381,7 +381,7 @@ function sendEmailToPureCloud(subject, body) {
         }),
         headers: {
             'Accept': 'application/json',
-            'Content-Type': 'application/json'
+            // 'Content-Type': 'application/json'
         },
         dataType: 'json'
     });
