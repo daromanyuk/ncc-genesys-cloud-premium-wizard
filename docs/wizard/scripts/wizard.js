@@ -190,6 +190,7 @@ export default {
           let provisionItems = config.provisioningInfo[key];
           provisionItems.forEach((item) => {
             if (item.registeredRedirectUri) {
+              console.log("PRINTAMO_______----_____----_____" + localStorage.getItem("portal_address") + "/oauth-callback/purecloud")
               item.registeredRedirectUri.push(localStorage.getItem("portal_address") + "/oauth-callback/purecloud");
               item.registeredRedirectUri.push(localStorage.getItem("portal_address") + "/oauth-connect-callback/purecloud");
             }
