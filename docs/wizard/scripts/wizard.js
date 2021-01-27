@@ -193,6 +193,7 @@ export default {
               console.log("PRINTAMO_______----_____----_____" + localStorage.getItem("portal_address") + "/oauth-callback/purecloud")
               item.registeredRedirectUri.push(localStorage.getItem("portal_address") + "/oauth-callback/purecloud");
               item.registeredRedirectUri.push(localStorage.getItem("portal_address") + "/oauth-connect-callback/purecloud");
+              console.log(item.registeredRedirectUri);
             }
             if (item.finally) {
               finalFunctionPromises.push(
