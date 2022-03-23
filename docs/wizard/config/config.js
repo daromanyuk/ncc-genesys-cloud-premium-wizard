@@ -1,11 +1,11 @@
 export default {
-    clientID: 'a25d93b0-7a4e-485a-bdf3-dcf27fb2b3b3',
+    clientID: 'b3fab89f-5d46-4528-8c03-b30fe3346c81',
 
-    'wizardUriBase': 'https://inprod.github.io/premium-app-example/wizard/',
+    'wizardUriBase': 'http://localhost:8080/wizard/',
     // 'wizardUriBase': 'https://inprod.github.io/premium-app-example/wizard/',
 
     // The actual URL of the landing page of your web app.
-    'premiumAppURL': 'https://inprod.github.io/premium-app-example/premium-app-sample/index.html',
+    'premiumAppURL': 'http://localhost:8080/premium-app-sample/index.html',
     // 'premiumAppURL': 'https://inprod.github.io/premium-app-example/premium-app-sample/index.html',
 
     // PureCloud assigned name for the premium app
@@ -91,7 +91,7 @@ export default {
         ],
         'oauth-client': [
             {
-                'name': 'OAuth Client',
+                'name': '*** Do Not Delete *** OAuth for Premium Wizard',
                 'description': 'Generated Client that\'s passed to the App Backend',
                 'roles': ['Role'],
                 'authorizedGrantType': 'CLIENT_CREDENTIALS',
