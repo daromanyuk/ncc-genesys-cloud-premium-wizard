@@ -3,7 +3,7 @@ html {
 }
 
 .jumbotron {
-    background-image: linear-gradient( to right, #5D3D5D, #64cdf5);
+    background-image: linear-gradient( to right, #5D3D5D, #FF4F1F);
     padding: 1rem !important;
     margin-bottom: 10px !important;
   }
@@ -38,24 +38,24 @@ body {
     padding: 10px 32px;
     border-radius: 25px;
     color: #fff !important;
-    background-color: #64cdf5 !important;
-    border: 2px solid #64cdf5;
+    background-color: #FF4F1F !important;
+    border: 2px solid #FF4F1F;
     font-size: 16px;
     font-family: Roboto,sans-serif !important;
 }
 
 .btn-info {
     background-color:white !important; 
-    border: 1px solid #64cdf5 !important;
+    border: 1px solid #FF4F1F !important;
     border-radius: 25px !important; 
-    color: #64cdf5 !important; 
+    color: #FF4F1F !important; 
     border-width: 2px !important;
     outline: none !important;
 }
 
 .btn-info:hover, .btn-info:focus {
-    background-color:#64cdf5 !important; 
-    border: 1px solid #64cdf5 !important;
+    background-color:#FF4F1F !important; 
+    border: 1px solid #FF4F1F !important;
     border-radius: 25px !important; 
     color: #FDFDFD !important; 
     border-width: 2px;
@@ -74,12 +74,12 @@ body {
 }
 
 a {
-    color: #64cdf5; 
+    color: #FF4F1F; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #64cdf5;
+    color: #FF4F1F;
     text-decoration: underline;
 }
 
@@ -90,7 +90,7 @@ a:visited {
 img {
     width: 750px;
     margin-left: 45px;
-    border: 1px solid #64cdf5;
+    border: 1px solid #FF4F1F;
 }
 
 .img-app-menu {
@@ -106,4 +106,8 @@ img {
 
 pre {
     margin: 0px !important;
+}
+
+ul {
+    margin: 0px;
 }

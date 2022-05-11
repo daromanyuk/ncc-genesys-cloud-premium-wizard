@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Incoming Conversation</title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' async type='text/css'>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="welcome-text">Welcome to Arkis App!</h1>
+            <h1 class="welcome-text">Welcome to Premium App Client Example!</h1>
             <p class="uninstall-button">
-                <button class="btn-info btn btn-primary btn-lg left" onclick="window.location='../wizard/uninstall.html'" title="For development purposes only. Remove this button before demo.">
+                <button class="btn-info btn btn-primary btn-lg left" onclick="window.location='../wizard/index.html' + window.location.search + '&uninstall=true'" title="For development purposes only. Remove this button before demo.">
                     Uninstall Apps
                 </button>
 
@@ -25,8 +21,24 @@
         </div>
     </div>
     <div class="content">
-        <h1 id="purecloud-premium-front-end-app">Arkis</h1>
-        <p>Go to ARKIS_Arkis in order to use your app.</p>
+        <h1 id="genesys-cloud-premium-front-end-app">Overview</h1>
+        <p>Premium applications are AppFoundry partner applications running inside Genesys Cloud. Premium app is integrated with Genesys Cloud's billing system. The wizard is a simple web app built to provision additional items in Genesys Cloud for use by the Premium App. The <a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/">Premium App Starting Guide</a> explores the sample Premium App Wizard installer and how partners can leverage it for their own Premium Apps.</p>
+        <br>
+        <div>
+            <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/">Premium App Starting Guide</a>
+                <ul>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/">Introduction</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/1-enabling-premium-app.html">Module 1: Enabling the Premium App</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/2-premium-app-permissions.html">Module 2: Permissions and Integration Type ID</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/3-running-the-wizard.html">Module 3: Running the Sample Wizard</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/4-configuring-local-wizard.html">Module 4: Configuring and Running Local Wizard (using GitHub repo URL)</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/5-update-wizard-appearance.html">Module 5: Changing sample wizard: Running locally</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/6-wizard-config-parameters.html">Module 6: Wizard Configuration</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/7-custom-setup.html">Module 7: Custom Setup Page and Post Custom Setup</a></li>
+                    <li><a href="https://developer.genesys.cloud/appfoundry/premium-app-wizard/8-premium-app-validation.html">Module 8: Premium App Wizard Validation</a></li>
+                </ul>
+            </li>
+        </div>
     </div>
 </body>
 </html>
